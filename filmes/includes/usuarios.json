@@ -1,0 +1,12 @@
+[
+    {
+        "nome": "Teste",
+        "email": "teste@teste.com",
+        "senha": "teste"
+    },
+    {
+        "nome": "Teste Hash",
+        "email": "Test@hash",
+        "senha": "$2y$10$9p.LMlt9GRMn6mRJ2YMi4uJdHGs3Onyha8MiCgg2cF0xLYPqWTg6C"
+    }
+]
