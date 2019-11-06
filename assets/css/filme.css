@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+main {
+	width: 80%;
+	margin-left: 10%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 20px;
+	padding: 0 0 20px 0;
+}
+
+h2{
+	grid-column: span 4;
+}
+
+img {
+	grid-column: span 1;
+	width: 100%;
+}
+
+section {
+	grid-column: span 3;
+}
+
+iframe {
+	grid-column: span 4;
+	width: 100%;
+	height: 400px;
+}

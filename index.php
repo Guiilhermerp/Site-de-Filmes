@@ -37,13 +37,14 @@
 	
 	<main>
 		<section>
-			<?php foreach ($filmes as $filme) {?>
-					<article>
-						<a href="#">
-							<img src="./assets/img/cartazes/<?= $filme['foto'] ?> " alt="titulo">
-							<span>Ver +</span>
-						</a>
-					</article>
+
+			<?php foreach($filmes as $filme) { ?>
+				<article>
+					<a href="#">
+						<img src="./assets/img/cartazes/<?= $filme['foto'] ?>" alt="titulo">
+						<span>Ver +</span>
+					</a>
+				</article>
 			<?php } ?>
 		</section>
 	</main>
