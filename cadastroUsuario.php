@@ -2,20 +2,27 @@
     include('./includes/generos.php'); 
 
     if ($_POST) {
+
+        // Pegando os usuario no json e transformando em array
         $usuariosJson = file_get_contents('./includes/usuarios.json');
         $usuariosArray = json_decode($usuariosJson, true);
 
+        // Criando um novo usuario
         $novoUsuario = [
             'nome' => $_POST['nome'],
             'email' => $_POST['email'],
+            // criptografando a senha com hash
             'senha' => password_hash($_POST['senha'], PASSWORD_DEFAULT),
         ];
 
+        // Atribuindo um novo usuario a array de usuarios
         $usuariosArray[] = $novoUsuario;
 
+        // Transformando a array de usuarios em json
         $novoUsuariosJson = json_encode($usuariosArray);
         $cadastrou = file_put_contents('./includes/usuarios.json', $novoUsuariosJson);
 
+        // Verificando se o usuario cadastrou
         if ($cadastrou) {
             header('Location: login.php');
         }

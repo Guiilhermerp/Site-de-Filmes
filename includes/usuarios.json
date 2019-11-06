@@ -1,9 +1,1 @@
-[{
-    "nome": "Thomaz",
-    "email": "thomaz@thomaz.com",
-    "senha": "123"
-}, {
-    "nome": "Teste",
-    "email": "teste@teste.com",
-    "senha": "$2y$10$pRn9Q1OXELZNeonNHEY1sernmNe48goYZ\/gSbuN\/rv1tFHgFc4xF."
-}]
+[{"nome":"Thomaz","email":"thomaz@thomaz.com","senha":"123"},{"nome":"Teste","email":"teste@teste.com","senha":"$2y$10$pRn9Q1OXELZNeonNHEY1sernmNe48goYZ\/gSbuN\/rv1tFHgFc4xF."},{"nome":"GG","email":"gg@gg","senha":"$2y$10$mJ0bfHnUn4Q6niIlm4RI..RiaGyAsfpg1qRNXuANWOn.iUBwmZWs."},{"nome":"","email":"","senha":"$2y$10$H.phbNbqs9J8A43ZWUIv4.Rane2vFrxLlOs\/hX1f49lBTBH4.95Cq"},{"nome":"","email":"","senha":"$2y$10$JLF2hVZNxc3M59ZE1stAT.9FinBK87RmIsMhtbS\/fujynjZhaYJSe"},{"nome":"","email":"","senha":"$2y$10$WaRwQeuHPSQ3Wx7Hp9wJhee3zod0gdg0.1ywFO6V7hRJpvgD4xUbm"},{"nome":"","email":"","senha":"$2y$10$OWNJ\/IgOYFQOl03QxxKH3.3n2VB9wala.ZYQOY6VWhjWmhaEz7kpi"},{"nome":"","email":"","senha":"$2y$10$T\/gzdl8\/MduzgDRAuqDNQ.kQULf9VbvjjISLx9fx8lQ4hf0PbnIX2"}]
